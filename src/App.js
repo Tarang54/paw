@@ -12,6 +12,7 @@ function App() {
       <Hero index={1}/>
       <Features />
       <AboutUs />
+      <Hero index={2}/>
     </div>
   );
 }
