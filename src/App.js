@@ -1,5 +1,4 @@
 import './App.css';
-import LandCard from './atoms/LandCard';
 import AboutUs from './molecules/AboutUs';
 import Features from './molecules/Features';
 import Header from './molecules/Header';
@@ -11,10 +10,10 @@ function App() {
       <Header/>
       <Hero index={0}/>
       <Hero index={1}/>
-      <Features />
+      <Features index={0}/>
       <AboutUs />
       <Hero index={2}/>
-      <LandCard />
+      <Features index={1}/>
     </div>
   );
 }
