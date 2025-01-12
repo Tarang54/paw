@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='flex flex-row justify-between items-center  py-[50px] m-auto px-24'>
+    <div className='flex flex-row flex-wrap justify-between items-center  py-[50px] m-auto px-24'>
       <div>
         <p className='text-[16px] leading-[24px] opacity-75'>© 2024 Wildlife Monitoring System. All rights reserved.</p>
       </div>

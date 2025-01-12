@@ -3,7 +3,7 @@ import Button from '../../atoms/Button/Index'
 
 function Subscribe() {
   return (
-    <div className='flex flex-row justify-between items-center  max-w-[1100px] py-[60px] m-auto px-12'>
+    <div className='flex flex-row flex-wrap justify-between items-center  max-w-[1100px] py-[60px] m-auto px-12'>
       <div className="flex flex-col justify-between w-2/5">
         <div className="text-[40px] leading-[48px]">Subscribe to Updates</div>
         <div className="text-[16px] leading-[24px] opacity-75">Stay informed with the latest news and updates.</div>

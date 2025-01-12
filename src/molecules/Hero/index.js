@@ -42,7 +42,7 @@ function Hero({index}) {
         }
     ]
   return (
-    <div className='flex flex-row justify-between items-center py-[40px] px-12 max-w-[1100px] m-auto' style={{marginBottom: HeroData[index].bottomMargin, marginTop: HeroData[index].isCenter?"40px":"0"}}>
+    <div className='flex flex-row flex-wrap justify-between items-center py-[40px] px-12 max-w-[1100px] m-auto' style={{marginBottom: HeroData[index].bottomMargin, marginTop: HeroData[index].isCenter?"40px":"0"}}>
       <div className="flex flex-col gap-6 justify-around" style={{width: HeroData[index].leftWidth, textAlign: HeroData[index].isCenter ? "center" : null}}>
         <div className="text-[40px] font-bold leading-[48px]">{HeroData[index].title}</div>
         <div className="text-[16px]">{HeroData[index].description}</div>

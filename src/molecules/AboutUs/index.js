@@ -5,7 +5,7 @@ import Button from '../../atoms/Button/Index';
 function AboutUs() {
   return (
     <div className='bg-black bg-opacity-60'>
-      <div className="max-w-[1100px] flex flex-row justify-between items-center p-12 m-auto">
+      <div className="max-w-[1100px] flex flex-row flex-wrap justify-between items-center p-12 m-auto">
         <img src={Avatar} className='' alt="" />
         <div className='basis-3/5'>
             <div className='text-[24px] text-white leading-[32px] font-bold'>Who We Are</div>
